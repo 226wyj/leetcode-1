@@ -10,6 +10,7 @@ class LRUCache {
         // update node to tail
         void update(Node *node, bool needUpdate = false, int _value = 0) {
             if (needUpdate) node -> value = _value;
+            // already the most frequent node
             if (node == tail || head == tail) return;
             if (head == node) head = head -> next;
             // connect prev with next: skip current node
@@ -25,7 +26,9 @@ class LRUCache {
         void add(int key, int value) {
             if (sz == capacity) {
                 Node *cur = lookup[head -> key];
+                // delete head: the least recently used one
                 if (head -> next) head -> next -> prev = NULL;
+                // only one element: set head and tail to NULL
                 if (head == tail) head = tail = NULL;
                 else head = head -> next;
                 lookup.erase(cur -> key);

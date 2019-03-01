@@ -37,6 +37,7 @@ public:
             return dfs(head -> next);
         } else {
             Node *child = head -> child;
+            // delete child
             head -> child = NULL;
             Node *next = head -> next;
             Node *childtail = dfs(child);
