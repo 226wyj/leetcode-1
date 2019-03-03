@@ -29,7 +29,8 @@ class Solution {
         string removeConsecutve(string board) {
             for (size_t i = 0, j = 0; i <= board.size(); ++i) {
                 if (i < board.size() && board[i] == board[j]) continue;
-                if (i - j >= 3) return removeConsecutve(board.substr(0, j) + board.substr(i));
+                if (i - j >= 3)
+                    return removeConsecutve(board.substr(0, j) + board.substr(i));
                 else j = i;
             }
             return board;
