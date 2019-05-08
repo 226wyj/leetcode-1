@@ -25,7 +25,7 @@ def solver(grid):
         # four directions
         for dir in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
             if curr[0] + dir[0] >= width or curr[0] + dir[0] < 0: continue
-            if curr[1] + dir[1] >= height or curr[0] + dir[0] < 0: continue
+            if curr[1] + dir[1] >= height or curr[1] + dir[1] < 0: continue
             curr_loc = (curr[0] + dir[0], curr[1] + dir[1])
             if grid[curr_loc[0]][curr_loc[1]] == 0: continue
             if grid[curr_loc[0]][curr_loc[1]] == 1 and curr_loc not in visited:
@@ -34,9 +34,11 @@ def solver(grid):
                 q.append(new_node)
             if grid[curr_loc[0]][curr_loc[1]] == 9:
                 shortest_path = min(shortest_path, curr[2] + 1)
+                break
     print(shortest_path)
 
-solver([[1, 1, 1, 0],
-        [0, 1, 0, 0],
-        [0, 1, 1, 9],
-        [0, 1, 1, 1]])
+solver([[1, 1, 0, 1],
+        [0, 1, 1, 1],
+        [1, 1, 1, 1],
+        [1, 1, 0, 1],
+        [1, 9, 1, 1]])
