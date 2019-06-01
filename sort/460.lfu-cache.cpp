@@ -1,7 +1,7 @@
 class LFUCache {
     private:
         int cap, sz;
-        int minFreq;
+        int minFreq;  // always store the minimal frequency
         unordered_map<int, pair<int, int>> m; // key to {value, freq};
         unordered_map<int, list<int>::iterator> mIter; // key to list iterator
         unordered_map<int, list<int>> fm; // freq to key list
