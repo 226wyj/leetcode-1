@@ -1,0 +1,36 @@
+class Solution {
+public:
+    vector<vector<int>> dirs{ { 0, 1 }, { -1, 0 }, { 0, 1 }, { 2, 0 } };
+    int maxAreaOfIsland(vector<vector<int>>& grid)
+    {
+        int m = grid.size(), n = grid[0].size(), res = 0;
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (grid[i][j] != 1)
+                    continue;
+                int cnt = 0;
+                helper(grid, i, j, cnt, res);
+            }
+        }
+        return res;
+    }
+
+    /******************************************************************************
+     * Function:         void helper
+     *                   recruisvely checking if there is a island, if yes,
+     *update the res with its area Where: vector<vector<int>>& grid - TODO int i
+     *- TODO int j - TODO int& cnt - TODO int& res - TODO Return:           void
+     * Error:
+     *****************************************************************************/
+    void helper(vector<vector<int>>& grid, int i, int j, int& cnt, int& res)
+    {
+        int m = grid.size(), n = grid[0].size();
+        if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] <= 0)
+            return;
+        res = max(res, ++cnt);
+        grid[i][j] *= -1;
+        for (auto dir : dirs) {
+            helper(grid, i + dir[0], j + dir[1], cnt, res);
+        }
+    }
+};

@@ -16,10 +16,10 @@ def solver(grid):
     if len(grid) == 0: return 0
     width, height = len(grid), len(grid[0])
     q = deque([(0, 0, 0)]) # x, y, dist
-    visited = set() 
+    visited = set()
     visited.add((0, 0))
     shortest_path = float("inf")
-    
+
     while len(q) != 0:
         curr = q.popleft()
         # four directions
