@@ -1,22 +1,22 @@
 # links
-[ ] https://www.cnblogs.com/grandyang/p/4518674.html
-[ ] https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=667497&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D14%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline
-[ ] https://leetcode.com/problems/design-underground-system/
-[ ] http://courses.cms.caltech.edu/cs124/lectures/
-[ ] http://www.scs.stanford.edu/10au-cs144/notes/
-[ ] https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
-[ ] https://leetcode.wang/leetcode-115-Distinct-Subsequences.html
-[ ] https://aonecode.com/amazon-online-assessment-find-substrings
-[ ] https://leetcode.com/problems/iterator-for-combination/
-[ ] https://leetcode.jp/problemdetail.php?id=1258
-[ ] https://leetcode.com/problems/next-greater-node-in-linked-list/
-[ ] https://leetcode.jp/problemdetail.php?id=296
-[ ] https://leetcode.com/problems/concatenated-words/
-[ ] https://leetcode.com/problems/compare-version-numbers/
-[ ] https://leetcode.com/problems/flood-fill/
-[ ] https://leetcode.jp/problemdetail.php?id=772
-[ ] https://leetcode.com/problems/insert-delete-getrandom-o1/
-[ ] https://leetcode.com/problems/course-schedule-iii/
-[ ] https://leetcode.com/problems/accounts-merge/
-[ ] https://leetcode.com/problems/word-search-ii/
-[ ] https://leetcode.com/problems/house-robber/
+- [ ] https://www.cnblogs.com/grandyang/p/4518674.html
+- [ ] https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=667497&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D14%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline
+- [ ] https://leetcode.com/problems/design-underground-system/
+- [ ] http://courses.cms.caltech.edu/cs124/lectures/
+- [ ] http://www.scs.stanford.edu/10au-cs144/notes/
+- [ ] https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+- [ ] https://leetcode.wang/leetcode-115-Distinct-Subsequences.html
+- [ ] https://aonecode.com/amazon-online-assessment-find-substrings
+- [ ] https://leetcode.com/problems/iterator-for-combination/
+- [ ] https://leetcode.jp/problemdetail.php?id=1258
+- [ ] https://leetcode.com/problems/next-greater-node-in-linked-list/
+- [ ] https://leetcode.jp/problemdetail.php?id=296
+- [ ] https://leetcode.com/problems/concatenated-words/
+- [ ] https://leetcode.com/problems/compare-version-numbers/
+- [ ] https://leetcode.com/problems/flood-fill/
+- [ ] https://leetcode.jp/problemdetail.php?id=772
+- [ ] https://leetcode.com/problems/insert-delete-getrandom-o1/
+- [ ] https://leetcode.com/problems/course-schedule-iii/
+- [ ] https://leetcode.com/problems/accounts-merge/
+- [ ] https://leetcode.com/problems/word-search-ii/
+- [ ] https://leetcode.com/problems/house-robber/
