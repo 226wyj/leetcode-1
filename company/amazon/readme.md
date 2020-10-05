@@ -1,5 +1,5 @@
 # links
-- [ ] https://www.cnblogs.com/grandyang/p/4518674.html
+- [x] https://www.cnblogs.com/grandyang/p/4518674.html
 - [ ] https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=667497&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D14%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline
 - [x] https://leetcode.com/problems/design-underground-system/
 - [ ] http://courses.cms.caltech.edu/cs124/lectures/
