@@ -28,6 +28,7 @@ public:
     }
     if (cur->children.count(path[n - 1]))
       return false;
+    // overwrite the file content
     cur->children[path[n - 1]] = new Node(val);
     return true;
   }
